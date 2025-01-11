@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "title": "AVATAR",
+      "imageUrl": "https://wallpapercave.com/wp/wp9424755.jpg",
+      "releaseDate": "December 6, 2022",
+      "overview": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
+    },
+    {
+      "title": "SONIC 3",
+      "imageUrl": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2024/11/sonic-3-trailer-shadow-with-gun.jpg",
+      "releaseDate": "December 20, 2024",
+      "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched, Team Sonic must seek out an unlikely alliance."
+    },
+    {
+      "title": "JUMANJI WELCOME TO THE JUNGLE",
+      "imageUrl": "https://img3.hulu.com/user/v3/artwork/3db7ecba-9c35-4663-bed2-15b2725709c5?base_image_bucket_name=image_manager&base_image=4bc1bb30-f1b2-4894-9457-e13cd0a86b2e&region=US&format=webp&size=952x536",
+      "releaseDate": "December 20, 2017",
+      "overview": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game."
+    },
+    {
+      "title": "Avengers: Endgame",
+      "imageUrl": "https://images.thedirect.com/media/article_full/scott-lang-ant-man-quantumania-avengers-endgame-mcu-marvel_5lf2djq.jpg?imgeng=/cmpr_60/w_1280",
+      "releaseDate": "April 26, 2019",
+      "overview": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+    }
+  ]
+}
