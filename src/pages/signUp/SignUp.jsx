@@ -1,23 +1,7 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { UserAuth } from "../../context/AuthContext";
+import { Link } from "react-router-dom";
 
 export default function SignUp() {
-  const { user, signUp } = UserAuth();
-  const [password, setPassword] = useState("");
-  const [email, setEmail] = useState("");
-  //   برای اینکه موقعی که پبت نام کرد لره به سمت خونه Home
-  const navigate = useNavigate();
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await signUp(email, password);
-      navigate("/");
-    } catch (error) {
-      console.log(error);
-    }
-  };
   // image background
   const images =
     "https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/US-en-20250106-TRIFECTA-perspective_65e335d4-6f1e-4d03-8daa-e439fbaaa340_medium.jpg";
@@ -34,19 +18,14 @@ export default function SignUp() {
           <div className="bg-black/75 max-w-[450px] h-[490px]  mx-auto text-white">
             <div className="mx-auto max-w-[320px] py-16 flex flex-col items-center">
               <h1 className="text-3xl font-bold">Sign Up</h1>
-              <form
-                onSubmit={handleSubmit}
-                className="w-full flex flex-col items-center py-4"
-              >
+              <form className="w-full flex flex-col items-center py-4">
                 <input
-                  onChange={(e) => setEmail(e.target.value)}
                   className="w-full p-3 my-2 bg-gray-600 rounded"
                   type="email"
                   placeholder="Email"
                   autoComplete="email"
                 />
                 <input
-                  onChange={(e) => setPassword(e.target.value)}
                   className="w-full p-3 my-2 bg-gray-600 rounded"
                   type="password"
                   placeholder="Password"
